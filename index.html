@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memoryspel</title>
+    <link rel="stylesheet" type="text/css" href="/projektarbete/style.css">
+    <script src= "/projektarbete/app.js" defer></script>
+
+
+</head>
+<body>
+    <h1 class="memory-text">Memoryspel</h1>
+
+<div class = "container" id = "klicka">
+    <div class = "spel">
+    Spelare 1 <span id = "spelare-1">0</span>
+    </div>
+    <div class = "spel">
+    Spelare 2 <span id="spelare-2">0</span>
+</div>
+
+    <div class="kort" onclick="flipCard(this)" >
+    <div class ="framsida">
+    <img class="hamburgare" src="img/002-hamburger.png">
+</div>
+    <div class = "baksida" >
+    <img class="pommes" src="img/004-junk-food.png">
+</div>
+</div>
+
+    <div class="kort" onclick="flipCard(this)">
+    <div class="framsida">
+    <img class="hamburgare" src="img/002-hamburger.png">
+</div>
+    <div class = "baksida">
+    <img class="kyckling" src="img/fried-chicken.png">
+</div>
+</div>
+
+    <div class="kort" onclick="flipCard(this)">
+    <div class="framsida">
+    <img class="hamburgare" src="img/002-hamburger.png">
+</div>
+    <div class = "baksida">
+    <img class="taco" src="img/taco.png">
+</div>
+</div>
+
+    <div class="kort" onclick="flipCard(this)">
+    <div class="framsida">
+    <img class="hamburgare" src="img/002-hamburger.png">
+</div>
+    <div class = "baksida">
+    <img class="pommes" src="img/004-junk-food.png">
+</div>
+</div>
+
+    <div class="kort" onclick="flipCard(this)">
+    <div class="framsida">
+    <img class="hamburgare" src="img/002-hamburger.png">
+</div>
+    <div class = "baksida">
+    <img class="pizza" src="img/003-pizza-1.png">
+</div>
+</div>
+
+    <div class="kort" onclick="flipCard(this)">
+    <div class="framsida">
+    <img class="hamburgare" src="img/002-hamburger.png">
+</div>
+    <div class = "baksida">
+    <img class="taco" src="img/taco.png">
+</div>
+</div>
+
+    <div class="kort" onclick="flipCard(this)">
+    <div class = "framsida">
+    <img class="hamburgare" src="img/002-hamburger.png">
+</div>
+    <div class ="baksida">
+    <img class="pizza" src="img/003-pizza-1.png">
+</div>
+</div>
+
+    <div class="kort"onclick="flipCard(this)">
+    <div class="framsida">
+    <img class="hamburgare" src="img/002-hamburger.png">
+</div>
+    <div class = "baksida">
+    <img class="munk" src="img/donut.png">
+</div>
+</div>
+
+    <div class="kort"onclick="flipCard(this)">
+    <div class ="framsida">
+    <img class="hamburgare" src="img/002-hamburger.png">
+</div>
+    <div class = "baksida">
+    <img class="hund" src="img/dog.png">
+</div>
+</div>
+
+    <div class="kort" onclick="flipCard(this)">
+    <div class ="framsida">
+    <img class="hamburgare" src="img/002-hamburger.png">
+</div>
+    <div class = "baksida">
+    <img class="munk" src="img/donut.png">
+</div>
+</div>
+
+    <div class="kort" onclick="flipCard(this)">
+    <div class = "framsida">
+    <img class="hamburgare" src="img/002-hamburger.png">
+</div>
+    <div class = "baksida">
+    <img class="hund" src="img/dog.png">
+</div>
+</div>
+
+    <div class="kort"onclick="flipCard(this)" >
+    <div class = "framsida">
+    <img class="hamburgare" src="img/002-hamburger.png">
+</div>
+    <div class = "baksida">
+    <img class="kyckling" src="img/fried-chicken.png">
+</div>
+</div>
+
+</div>
+<div class="button-container">
+    <button class="knapp1" onclick="resetGame()">Återställ spelet</button>
+    <button class="knapp2" onclick="shuffleCards()">Blandakort</button>
+</div>
+
+<div class = "Spelare" id="antalSpelareText">Spelare 1</div>
+
+</div>
+</body>
+</html>
+
+
